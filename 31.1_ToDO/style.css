@@ -1,0 +1,84 @@
+body{
+    height: 100vh;
+    background-color: dodgerblue;
+}
+h1{
+        margin-left: 41px;
+}
+
+.container{
+    width: 40%;
+    top: 50%;
+    left: 50%;
+    background: white;
+    border-radius: 10px;
+    min-width: 450px;
+    position: absolute;
+    min-height: 100px;
+    transform: translate(-50%, -50%);
+}
+
+#newTask{
+    padding: 30px 100px;
+
+}
+
+#newTask input{
+    width: 75%;
+    height: 20px;
+    padding: 12px;
+    font-weight: 500;
+    font-size: 15px;
+}
+#newTask input:focus{
+    outline: none;
+    border-color: dodgerblue;
+}
+
+#newTask button{
+    height: 44px;
+        background-color: dodgerblue;
+        color: white;
+        width: 47px;
+
+}
+
+#Tasks {
+    border-radius: 10px;
+    width: 100%;
+     position: relative; 
+    background-color: white
+    
+}
+
+.task{
+        /* border-radius: 10px; */
+        /* border: 2px solid black; */
+        display: flex;
+        justify-content: space-between;
+            /* width: 100%; */
+            /* position: relative; */
+            background-color: white;
+            padding: 10px 10px;
+            margin-top: 5px;
+            color: black;
+            /* justify-content: space-between; */
+}
+
+.task span{
+    font-size: 15px;
+    font-size: 400;
+}
+.task button {
+    background-color: dodgerblue;
+    color: black;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    width: 60px;
+    border-radius: 5px;
+
+        height: 30px;
+            background-color: dodgerblue;
+            color: white;
+}

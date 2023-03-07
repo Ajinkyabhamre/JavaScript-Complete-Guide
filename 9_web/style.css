@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav ul{
+display: flex;
+list-style: none;
+color: azure;
+}
+ nav ul li {
+    margin: 12px 12px
+    
+ }

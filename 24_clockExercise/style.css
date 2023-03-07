@@ -1,0 +1,14 @@
+#clock{
+    font-size: 175px;
+    width: 900px;
+    border: 2px solid black;
+    text-align: center;
+    margin: 200px;
+    background-color: dodgerblue;
+    color: white;
+    border-radius: 25px;
+}
+
+#id{
+    color: black;
+}
